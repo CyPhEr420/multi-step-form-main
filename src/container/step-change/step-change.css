@@ -1,0 +1,22 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  position: absolute;
+  width: 100%;
+  padding-left: inherit;
+  padding-right: inherit;
+  left: 0;
+  bottom: 5rem;
+}
+
+@media (max-width: 500px) {
+  .btn-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    left: 0;
+  }
+}

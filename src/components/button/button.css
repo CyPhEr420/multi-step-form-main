@@ -1,0 +1,12 @@
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: hsl(213, 96%, 18%);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}

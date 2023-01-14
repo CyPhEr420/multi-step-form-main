@@ -1,0 +1,12 @@
+.thankyou-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.thankyou-container p {
+  text-align: center;
+}

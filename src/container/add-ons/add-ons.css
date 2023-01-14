@@ -1,0 +1,49 @@
+.add-ons-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.add-on {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(229, 24%, 87%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.add-on .add-on-info {
+  pointer-events: none;
+}
+
+.add-on.active {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(231, 100%, 99%);
+}
+
+.add-on-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.add-on-price p {
+  color: hsl(213, 96%, 18%);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  border: 1px solid hsl(229, 24%, 87%);
+  width: 22px;
+  height: 22px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: hsl(243, 100%, 62%);
+  background-image: url(../../assets/images/icon-checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}

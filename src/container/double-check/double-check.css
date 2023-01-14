@@ -1,0 +1,60 @@
+.data-table {
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  background-color: hsl(231, 100%, 99%);
+  padding: 2.2rem;
+}
+.plan-data {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  align-items: center;
+  padding-bottom: 2.2rem;
+  border-bottom: 2px solid hsl(229, 24%, 87%);
+}
+
+h4 {
+  color: hsl(213, 96%, 18%);
+}
+
+.plan-type p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.plan-data .plan-amount p {
+  color: hsl(213, 96%, 18%);
+  font-weight: 700;
+}
+
+.addon-container-data {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.addon-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addon-data h4 {
+  color: hsl(231, 11%, 63%);
+  font-weight: 400;
+}
+
+.addon-data p {
+  color: hsl(213, 96%, 18%);
+}
+
+.total-amount-container {
+  padding-inline: 2.2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-amount-container h2 {
+  color: hsl(243, 100%, 62%);
+}
